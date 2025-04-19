@@ -88,11 +88,6 @@ title: ""
     text-decoration: underline;
   }
 
-  .card-link {
-    text-decoration: none;
-    color: inherit;
-  }
-
   .section-card {
     background: #ffffff;
     padding: 1.5rem;
@@ -112,17 +107,18 @@ title: ""
     transform: none;
   }
 
-  .section-card.clickable:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    transform: translateY(-4px);
-    border: 1px solid #FDB913;
-    background-color: #FCFCFF;
+  .clickable-card {
     cursor: pointer;
   }
 
-  .section-card.clickable:active {
-    transform: translateY(1px);
-    box-shadow: 0 4px 6px rgba(0,0,0,0.08);
+  .clickable-card:hover {
+    background-color: #F9FAFE;
+  }
+
+  .section-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transform: translateY(-4px);
+    border: 1px solid #FDB913;
   }
 
   .section-card h2 {
@@ -130,14 +126,6 @@ title: ""
     padding-left: 1rem;
     margin-top: 0;
     color: #00244E;
-    font-size: 1.5rem;
-    font-weight: 700;
-  }
-
-  .section-card.static:hover {
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-    cursor: default;
   }
 
   footer {
@@ -190,7 +178,7 @@ title: ""
 <div class="banner-wrapper">
   <h1>Nick Crescentini</h1>
   <h2>SNHU</h2>
-  <h3>CS499 Capstone Project & ePortfolio</h3>
+  <h3>CS499 Capstone Project &amp; ePortfolio</h3>
 </div>
 
 <div class="sticky-nav">
@@ -202,17 +190,26 @@ title: ""
   <a href="#self-assessment">Professional Self-Assessment</a>
 </div>
 
-<div class="section-card static" id="welcome">
-  <h2>Welcome to my ePortfolio!</h2>
-  <p>My capstone journey begins with the very first project I submitted at SNHU: a text-based adventure game written in Python...</p>
+<div class="section-card" id="welcome">
+  <h3>Welcome to my ePortfolio!</h3>
+  <p>My capstone journey begins with the very first project I submitted at SNHU: a text-based adventure game written in Python. In the game, the player explores a castle in search of six items that will help them defeat a hidden dragon.</p>
+  <p>For this capstone, I chose to revisit and enhance that original codebase, both to honor where my programming journey began and to demonstrate how far I've come.</p>
+  <p>In this project, I've completed three major enhancements, each aligned with a different area of computer science:</p>
+  <ul>
+    <li><strong>Software Design & Engineering</strong> – Refactored the structure and introduced a modular start menu system</li>
+    <li><strong>Algorithms & Data Structures</strong> – Replaced inefficient item logic with a dynamic, dictionary-based system</li>
+    <li><strong>Databases</strong> – Implemented save/load functionality using an SQLite database</li>
+  </ul>
+  <p>Using this same project across all three enhancements is symbolic of my growth throughout the Computer Science program. It represents both my starting point and my final achievement—showcasing not just the technical skills I’ve gained, but also how my design thinking, coding practices, and confidence have evolved.</p>
+  <p>Each enhancement builds upon the last, transforming a simple beginner script into a scalable, maintainable, and professional-grade program.</p>
 </div>
 
-<div class="section-card static" id="code-review">
+<div class="section-card" id="code-review">
   <h2>Code Review</h2>
-  <p>This video walks through the original artifacts used in my CS499 Capstone...</p>
+  <p>This video walks through the original artifacts used in my CS499 Capstone, identifying areas for improvement and outlining the planned enhancements. It includes a walkthrough along with code commentary and goals.</p>
   <p><strong>View Original Artifacts:</strong> <a href="https://github.com/ncrescentini/CS499-Capstone/blob/main/InitialCodebase/TrogdorsRevenge.py" target="_blank">TrogdorsRevenge.py on GitHub</a></p>
   <div class="video-container">
-    <iframe src="https://player.vimeo.com/video/1076984032?h=1a3232b6d4&badge=0&autopause=0&player_id=0&app_id=58479"
+    <iframe src="https://player.vimeo.com/video/1076984032?h=1a3232b6d4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
       frameborder="0"
       allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
       title="CS499 Milestone One Code Review_Crescentini"
@@ -221,28 +218,28 @@ title: ""
   </div>
 </div>
 
-<a class="card-link" href="https://github.com/ncrescentini/CS499-Capstone/tree/main/enhancement1" target="_blank">
-  <div class="section-card clickable" id="enh1">
+<a href="https://github.com/ncrescentini/CS499-Capstone/tree/main/enhancement1" target="_blank" style="text-decoration: none;">
+  <div class="section-card clickable-card" id="enh1">
     <h2>Enhancement One – Software Design and Engineering</h2>
-    <p>Refactors the original IT-140 artifact by adding a menu system, improving modularity, and separating gameplay and logic functions...</p>
+    <p>Refactors the original IT-140 artifact by adding a menu system, improving modularity, and separating gameplay and logic functions. Click to view the <strong>README</strong> and enhanced codebase.</p>
   </div>
 </a>
 
-<a class="card-link" href="https://ncrescentini.github.io/CS499-Capstone/enhancement2/" target="_blank">
-  <div class="section-card clickable" id="enh2">
+<a href="https://ncrescentini.github.io/CS499-Capstone/enhancement2/" target="_blank" style="text-decoration: none;">
+  <div class="section-card clickable-card" id="enh2">
     <h2>Enhancement Two – Algorithms and Data Structures</h2>
-    <p>Refactors the item detection logic by replacing inefficient if/elif chains with a scalable dictionary-based algorithm...</p>
+    <p>Refactors the item detection logic by replacing inefficient if/elif chains with a scalable dictionary-based algorithm. Enhances maintainability, efficiency, and lays groundwork for more complex game logic. Click to view the <strong>README</strong> and enhanced codebase.</p>
   </div>
 </a>
 
-<a class="card-link" href="https://ncrescentini.github.io/CS499-Capstone/enhancement3/" target="_blank">
-  <div class="section-card clickable" id="enh3">
+<a href="https://ncrescentini.github.io/CS499-Capstone/enhancement3/" target="_blank" style="text-decoration: none;">
+  <div class="section-card clickable-card" id="enh3">
     <h2>Enhancement Three – Databases</h2>
-    <p>Adds SQLite-based save/load functionality by integrating a custom database into the original program...</p>
+    <p>Adds SQLite-based save/load functionality by integrating a custom database into the original program. Demonstrates ability to design new features, build scalable architecture, and apply database principles. Click to view the <strong>README</strong> and enhanced codebase.</p>
   </div>
 </a>
 
-<div class="section-card static" id="self-assessment">
+<div class="section-card" id="self-assessment">
   <h2>Professional Self-Assessment</h2>
   <p>TODO</p>
 </div>
@@ -260,7 +257,9 @@ title: ""
     const btn = document.querySelector('.back-to-top');
     btn.style.display = window.scrollY > 300 ? 'block' : 'none';
   });
+</script>
 
+<script>
   document.addEventListener('DOMContentLoaded', function () {
     const cards = document.querySelectorAll('.section-card');
     const observer = new IntersectionObserver(entries => {
@@ -270,12 +269,8 @@ title: ""
           observer.unobserve(entry.target);
         }
       });
-    }, {
-      threshold: 0.1
-    });
+    }, { threshold: 0.1 });
 
-    cards.forEach(card => {
-      observer.observe(card);
-    });
+    cards.forEach(card => observer.observe(card));
   });
 </script>
