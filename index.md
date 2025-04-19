@@ -170,7 +170,7 @@ title: ""
   </h2>
   <p>
     Refactors the original IT-140 artifact by adding a menu system, improving modularity, and separating gameplay and logic functions.
-    Click to view the README and enhanced codebase.
+    Click to view the <strong>README</strong> and enhanced codebase.
   </p>
 </div>
 
@@ -186,9 +186,16 @@ title: ""
 </div>
 
 <div class="section-card" id="enh3">
-  <h2>Enhancement Three – Databases</h2>
-  <p>TODO</p>
-  <!-- Enhancement 3 link coming soon -->
+  <h2>
+    <a href="https://ncrescentini.github.io/CS499-Capstone/enhancement3/" target="_blank" style="text-decoration: none; color: #3b5fb2;">
+      Enhancement Three – Databases
+    </a>
+  </h2>
+  <p>
+    Adds SQLite-based save/load functionality by integrating a custom database into the original program.
+    Demonstrates ability to design new features, build scalable architecture, and apply database principles.
+    Click to view the <strong>README</strong> and enhanced codebase.
+  </p>
 </div>
 
 <div class="section-card" id="self-assessment">
