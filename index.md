@@ -8,6 +8,11 @@ title: ""
     scroll-behavior: smooth;
   }
 
+  html, body {
+  margin: 0;
+  padding: 0;
+  }
+
   body {
     /*background-color: #ECECEC;*/
     background-color: #F4F7FB;
@@ -102,10 +107,11 @@ title: ""
   }
 
   .section-card:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  transform: translateY(-4px);
-  border: 1px solid #FFC600;
-}
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transform: translateY(-4px);
+    border: 1px solid #FFC600;
+  }
+  
   .section-card {
     opacity: 0;
     transform: translateY(20px);
