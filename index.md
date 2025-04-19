@@ -148,19 +148,27 @@ title: ""
 </div>
 
 <div class="section-card">
-
-### Welcome to my ePortfolio!
-
-My capstone journey begins with the very first project I submitted at SNHU: a text-based adventure game written in Python. In the game, the player explores a castle in search of six items that will help them defeat a hidden dragon. For this capstone, I chose to revisit and enhance that original codebase, both to honor where my programming journey began and to demonstrate how far I've come.
-
-In this project, I've completed three major enhancements, each aligned with a different area of computer science:
-
-- **Software Design & Engineering** – Refactored the structure and introduced a modular start menu system  
-- **Algorithms & Data Structures** – Replaced inefficient item logic with a dynamic, dictionary-based system  
-- **Databases** – Implemented save/load functionality using an SQLite database
-
-Using this same project across all three enhancements is symbolic of my growth throughout the Computer Science program. It represents both my starting point and my final achievement—showcasing not just the technical skills I’ve gained, but also how my design thinking, coding practices, and confidence have evolved. Each enhancement builds upon the last, transforming a simple beginner script into a scalable, maintainable, and professional-grade program.
-
+  <h3>Welcome to my ePortfolio!</h3>
+  <p>
+    My capstone journey begins with the very first project I submitted at SNHU: a text-based adventure game written in Python. In the game, the player explores a castle in search of six items that will help them defeat a hidden dragon.
+  </p>
+  <p>
+    For this capstone, I chose to revisit and enhance that original codebase, both to honor where my programming journey began and to demonstrate how far I've come.
+  </p>
+  <p>
+    In this project, I've completed three major enhancements, each aligned with a different area of computer science:
+  </p>
+  <ul>
+    <li><strong>Software Design & Engineering</strong> – Refactored the structure and introduced a modular start menu system</li>
+    <li><strong>Algorithms & Data Structures</strong> – Replaced inefficient item logic with a dynamic, dictionary-based system</li>
+    <li><strong>Databases</strong> – Implemented save/load functionality using an SQLite database</li>
+  </ul>
+  <p>
+    Using this same project across all three enhancements is symbolic of my growth throughout the Computer Science program. It represents both my starting point and my final achievement—showcasing not just the technical skills I’ve gained, but also how my design thinking, coding practices, and confidence have evolved.
+  </p>
+  <p>
+    Each enhancement builds upon the last, transforming a simple beginner script into a scalable, maintainable, and professional-grade program.
+  </p>
 </div>
 
 <div class="section-card" id="overview">
