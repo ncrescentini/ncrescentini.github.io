@@ -20,14 +20,14 @@ title: ""
   }
   
   .banner-wrapper {
-    background: linear-gradient(135deg, #00205B, #003F88);
+    background: linear-gradient(135deg, #00244E, #003F88);
     color: #ffffff;
     padding: 2rem;
     text-align: center;
     margin-bottom: 0;
     font-family: 'Segoe UI', sans-serif;
-    border-top: 8px solid #FFC600;
-    border-bottom: 8px solid #FFC600;
+    border-top: 8px solid #FDB913;
+    border-bottom: 8px solid #FDB913;
     box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.2);
   }
 
@@ -42,7 +42,7 @@ title: ""
     margin: 0.3rem 0;
     font-size: 1.5rem;
     font-weight: 600;
-    color: #FFC600;
+    color: #FDB913;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
   }
 
@@ -51,7 +51,7 @@ title: ""
     font-size: 1.2rem;
     font-style: italic;
     font-weight: 400;
-    color: #FFC600;
+    color: #FDB913;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
   }
 
@@ -59,13 +59,13 @@ title: ""
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: #112B5C;
+    background-color: #00244E;
     padding: 0.5rem 1rem 0.4rem 1rem;
     font-family: 'Segoe UI', sans-serif;
-    border-bottom: 4px solid #FFC600;
+    border-bottom: 4px solid #FDB913;
     text-align: center;
     margin-top: 1rem;
-    border-top: 1px solid #FFC600;
+    border-top: 1px solid #FDB913;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -73,7 +73,7 @@ title: ""
   }
   
   .sticky-nav a {
-    color: #FFC600;
+    color: #FDB913;
     text-decoration: underline;
     text-underline-offset: 2px;
     font-weight: 600;
@@ -97,30 +97,27 @@ title: ""
     max-width: 800px;
     scroll-margin-top: 120px;
     border: 1px solid #D8D8D8;
-    transition: all 0.3s ease;
-  }
-
-  .section-card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    transform: translateY(-4px);
-    border: 1px solid #FFC600;
-  }
-  
-  .section-card {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
   }
-  
+
   .section-card.visible {
     opacity: 1;
     transform: none;
   }
+  
+  .section-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transform: translateY(-4px);
+    border: 1px solid #FDB913;
+  }
 
   .section-card h2 {
-    border-left: 5px solid #FFC600;
+    border-left: 5px solid #FDB913;
     padding-left: 1rem;
     margin-top: 0;
+    color: #00244E;
   }
 
     footer {
@@ -135,8 +132,8 @@ title: ""
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #00205B;
-    color: #FFC600;
+    background-color: #00244E;
+    color: #FDB913;
     padding: 10px 14px;
     border: none;
     border-radius: 5px;
