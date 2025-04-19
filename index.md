@@ -35,6 +35,7 @@ title: ""
     margin: 0;
     font-size: 2.5rem;
     font-weight: 800;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.35);
   }
 
   .banner-wrapper h2 {
@@ -42,6 +43,7 @@ title: ""
     font-size: 1.5rem;
     font-weight: 600;
     color: #FFC600;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
   }
 
   .banner-wrapper h3 {
@@ -50,6 +52,7 @@ title: ""
     font-style: italic;
     font-weight: 400;
     color: #FFC600;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
   }
 
   .sticky-nav {
