@@ -45,3 +45,50 @@ title: ""
 
 
 Welcome to my ePortfolio, which showcases my CS499 Capstone Project and other work from the SNHU Computer Science Program.
+
+
+## Code Review
+
+TODO
+
+<!-- Link to code review coming soon -->
+
+---
+
+## Capstone Overview
+
+TODO
+
+<!-- Link to capstone project repo coming soon -->
+
+---
+
+## Enhancement One – Software Design and Engineering
+
+TODO
+
+<!-- Link to enhancement one coming soon -->
+
+---
+
+## Enhancement Two – Algorithms and Data Structures
+
+TODO
+
+<!-- Link to enhancement two coming soon -->
+
+---
+
+## Enhancement Three – Databases
+
+TODO
+
+<!-- Link to enhancement three coming soon -->
+
+---
+
+## Professional Self-Assessment
+
+TODO
+
+<!-- Link to self-assessment coming soon -->
