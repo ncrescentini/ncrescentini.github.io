@@ -162,9 +162,15 @@ title: ""
 </div>
 
 <div class="section-card" id="enh1">
-  <h2>Enhancement One – Software Design and Engineering</h2>
-  <p>TODO</p>
-  <!-- Enhancement 1 link coming soon -->
+  <h2>
+    <a href="https://github.com/ncrescentini/CS499-Capstone/tree/main/enhancement1" target="_blank">
+      Enhancement One – Software Design and Engineering
+    </a>
+  </h2>
+  <p>
+    Refactors the original IT-140 artifact by adding a menu system, improving modularity, and separating gameplay and logic functions.
+    Click to view the README and enhanced codebase.
+  </p>
 </div>
 
 <div class="section-card" id="enh2">
