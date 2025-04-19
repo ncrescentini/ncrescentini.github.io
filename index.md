@@ -62,8 +62,9 @@ title: ""
     color: #FFC600;
     text-decoration: none;
     font-weight: 600;
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     transition: color 0.2s ease;
+    white-space: nowrap;
   }
 
   .sticky-nav a:hover {
@@ -93,11 +94,11 @@ title: ""
 </div>
 
 <div class="sticky-nav">
-  <a href="#code-review">Code Review</a>
   <a href="#overview">Overview</a>
-  <a href="#enh1">Enh. 1</a>
-  <a href="#enh2">Enh. 2</a>
-  <a href="#enh3">Enh. 3</a>
+  <a href="#code-review">Code Review</a>
+  <a href="#enh1">Enhancement 1</a>
+  <a href="#enh2">Enhancement 2</a>
+  <a href="#enh3">Enhancement 3</a>
   <a href="#self-assessment">Self-Assessment</a>
 </div>
 
