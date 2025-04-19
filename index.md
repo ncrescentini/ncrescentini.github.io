@@ -20,7 +20,7 @@ title: ""
   }
   
   .banner-wrapper {
-    background-color: #00205B;
+    background: linear-gradient(135deg, #00205B, #003F88);
     color: #ffffff;
     padding: 2rem;
     text-align: center;
