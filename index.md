@@ -5,7 +5,7 @@ title: ""
 
 <style>
     body {
-    background-color: #FAF3E0;
+    background-color: #F0F0F0;
   }
   
   .banner-wrapper {
