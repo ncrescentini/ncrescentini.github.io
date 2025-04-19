@@ -9,7 +9,8 @@ title: ""
   }
 
   body {
-    background-color: #ECECEC;
+    /*background-color: #ECECEC;*/
+    background-color: #F4F7FB;
   }
   
   .site-title,
@@ -20,7 +21,7 @@ title: ""
   }
   
   .banner-wrapper {
-    background: linear-gradient(to bottom, #ECECEC, #E5E5E5);
+    background: linear-gradient(135deg, #00205B, #003F88);
     color: #ffffff;
     padding: 2rem;
     text-align: center;
@@ -28,7 +29,7 @@ title: ""
     font-family: 'Segoe UI', sans-serif;
     border-top: 8px solid #FFC600;
     border-bottom: 8px solid #FFC600;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.2);
   }
 
   .banner-wrapper h1 {
