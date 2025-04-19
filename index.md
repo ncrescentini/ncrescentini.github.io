@@ -132,6 +132,11 @@ title: ""
     box-shadow: 0 10px 18px rgba(0, 0, 0, 0.12);
   }
 
+  .card-link:active .section-card {
+    transform: scale(0.98);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
   footer {
     text-align: center;
     font-size: 0.85rem;
