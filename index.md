@@ -64,15 +64,18 @@ title: ""
   
   .sticky-nav a {
     color: #FFC600;
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 2px;
     font-weight: 600;
     font-size: 0.85rem;
     white-space: nowrap;
-    transition: color 0.2s ease;
+    cursor: pointer;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
   }
   
   .sticky-nav a:hover {
     color: #ffffff;
+    text-decoration: underline;
   }
 
   .section-card {
