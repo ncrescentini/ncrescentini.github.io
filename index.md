@@ -50,32 +50,27 @@ title: ""
     top: 0;
     z-index: 100;
     background-color: #112B5C;
-    padding: 0.75rem 1rem;
+    padding: 0.5rem 1rem 0.4rem 1rem;
     font-family: 'Segoe UI', sans-serif;
     border-bottom: 4px solid #FFC600;
     text-align: center;
     margin-top: 1rem;
     border-top: 1px solid #FFC600;
-  }
-
-  .sticky-nav .nav-row {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    gap: 1.5rem;
-    margin: 0.3rem 0;
-    padding: 0.2rem 0;
+    justify-content: center;
+    gap: 1.2rem;
   }
-
+  
   .sticky-nav a {
     color: #FFC600;
     text-decoration: none;
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     white-space: nowrap;
     transition: color 0.2s ease;
   }
-
+  
   .sticky-nav a:hover {
     color: #ffffff;
   }
@@ -133,18 +128,12 @@ title: ""
 </div>
 
 <div class="sticky-nav">
-  <div class="nav-row">
-    <a href="#overview">Capstone Overview</a>
-    <a href="#code-review">Code Review</a>
-  </div>
-  <div class="nav-row">
-    <a href="#enh1">Enhancement 1</a>
-    <a href="#enh2">Enhancement 2</a>
-    <a href="#enh3">Enhancement 3</a>
-  </div>
-  <div class="nav-row">
-    <a href="#self-assessment">Professional Self-Assessment</a>
-  </div>
+  <a href="#overview">Capstone Overview</a>
+  <a href="#code-review">Code Review</a>
+  <a href="#enh1">Enhancement 1</a>
+  <a href="#enh2">Enhancement 2</a>
+  <a href="#enh3">Enhancement 3</a>
+  <a href="#self-assessment">Professional Self-Assessment</a>
 </div>
 
 <div class="section-card">
