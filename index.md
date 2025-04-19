@@ -139,7 +139,7 @@ title: ""
 </div>
 
 <div class="sticky-nav">
-  <a href="#overview">Capstone Overview</a>
+  <a href="#welcome">Welcome</a>
   <a href="#code-review">Code Review</a>
   <a href="#enh1">Enhancement 1</a>
   <a href="#enh2">Enhancement 2</a>
@@ -147,7 +147,7 @@ title: ""
   <a href="#self-assessment">Professional Self-Assessment</a>
 </div>
 
-<div class="section-card">
+<div class="section-card" id="welcome">>
   <h3>Welcome to my ePortfolio!</h3>
   <p>
     My capstone journey begins with the very first project I submitted at SNHU: a text-based adventure game written in Python. In the game, the player explores a castle in search of six items that will help them defeat a hidden dragon.
@@ -169,12 +169,6 @@ title: ""
   <p>
     Each enhancement builds upon the last, transforming a simple beginner script into a scalable, maintainable, and professional-grade program.
   </p>
-</div>
-
-<div class="section-card" id="overview">
-  <h2>Capstone Overview</h2>
-  <p>TODO</p>
-  <!-- Link to capstone repo coming soon -->
 </div>
 
 <div class="section-card" id="code-review">
