@@ -98,7 +98,7 @@ title: ""
     scroll-margin-top: 120px;
     border: 1px solid #D8D8D8;
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(4px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
   }
 
