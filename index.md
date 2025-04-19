@@ -100,6 +100,18 @@ title: ""
     border: 1px solid #D8D8D8;
   }
 
+  .section-card {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  
+  .section-card.visible {
+    opacity: 1;
+    transform: none;
+  }
+
   .section-card h2 {
     border-left: 5px solid #FFC600;
     padding-left: 1rem;
@@ -264,5 +276,26 @@ title: ""
   window.addEventListener('scroll', function () {
     const btn = document.querySelector('.back-to-top');
     btn.style.display = window.scrollY > 300 ? 'block' : 'none';
+  });
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const cards = document.querySelectorAll('.section-card');
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target); // optional: only run once
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+
+    cards.forEach(card => {
+      observer.observe(card);
+    });
   });
 </script>
