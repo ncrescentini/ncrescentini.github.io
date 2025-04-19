@@ -130,6 +130,23 @@ title: ""
   .back-to-top:hover {
     background-color: #001B47;
   }
+  
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
 </style>
 
 <div class="banner-wrapper">
@@ -173,9 +190,20 @@ title: ""
 
 <div class="section-card" id="code-review">
   <h2>Code Review</h2>
-  <p>TODO</p>
-  <!-- Link to code review coming soon -->
+  <p>
+    This video walks through the original artifact used in my CS499 Capstone, identifying areas for improvement and outlining the planned enhancements. It includes a walkthrough along with code commentary and goals.
+  </p>
+
+  <div class="video-container">
+    <iframe src="https://player.vimeo.com/video/1076984032?h=1a3232b6d4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+      frameborder="0"
+      allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+      title="CS499 Milestone One Code Review_Crescentini"
+      allowfullscreen>
+    </iframe>
+  </div>
 </div>
+
 
 <div class="section-card" id="enh1">
   <h2>
