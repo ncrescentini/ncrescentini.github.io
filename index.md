@@ -93,7 +93,7 @@ title: ""
     padding: 1.5rem;
     margin: 2rem auto;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     max-width: 800px;
     scroll-margin-top: 120px;
     border: 1px solid #D8D8D8;
@@ -107,6 +107,12 @@ title: ""
     transform: none;
   }
 
+  .section-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transform: translateY(-4px);
+    border: 1px solid #FDB913;
+  }
+
   .section-card h2 {
     border-left: 5px solid #FDB913;
     padding-left: 1rem;
@@ -114,25 +120,11 @@ title: ""
     color: #00244E;
   }
 
-  .section-card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    transform: translateY(-4px);
-    border: 1px solid #FDB913;
-  }
-
   .card-link {
-    text-decoration: none;
-    color: inherit;
-    display: block;
+    cursor: pointer;
   }
 
-  .card-link .section-card:hover {
-    background-color: #FFF8E5;
-    border-color: #FDB913;
-    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.12);
-  }
-
-  .card-link:active .section-card {
+  .card-link:active {
     transform: scale(0.98);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
@@ -157,7 +149,7 @@ title: ""
     font-weight: bold;
     cursor: pointer;
     font-size: 0.8rem;
-    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
     display: none;
     z-index: 200;
     transition: background-color 0.2s ease;
@@ -227,28 +219,20 @@ title: ""
   </div>
 </div>
 
-<div class="section-card" id="enh1">
-  <h2>
-    <a href="https://github.com/ncrescentini/CS499-Capstone/tree/main/enhancement1" target="_blank">
-      Enhancement One – Software Design and Engineering
-    </a>
-  </h2>
+<div class="section-card card-link" id="enh1" onclick="window.open('https://github.com/ncrescentini/CS499-Capstone/tree/main/enhancement1', '_blank')">
+  <h2>Enhancement One – Software Design and Engineering</h2>
   <p>Refactors the original IT-140 artifact by adding a menu system, improving modularity, and separating gameplay and logic functions. Click to view the <strong>README</strong> and enhanced codebase.</p>
 </div>
 
-<a href="https://ncrescentini.github.io/CS499-Capstone/enhancement2/" target="_blank" class="card-link">
-  <div class="section-card" id="enh2">
-    <h2>Enhancement Two – Algorithms and Data Structures</h2>
-    <p>Refactors the item detection logic by replacing inefficient if/elif chains with a scalable dictionary-based algorithm. Enhances maintainability, efficiency, and lays groundwork for more complex game logic. Click to view the <strong>README</strong> and enhanced codebase.</p>
-  </div>
-</a>
+<div class="section-card card-link" id="enh2" onclick="window.open('https://ncrescentini.github.io/CS499-Capstone/enhancement2/', '_blank')">
+  <h2>Enhancement Two – Algorithms and Data Structures</h2>
+  <p>Refactors the item detection logic by replacing inefficient if/elif chains with a scalable dictionary-based algorithm. Enhances maintainability, efficiency, and lays groundwork for more complex game logic. Click to view the <strong>README</strong> and enhanced codebase.</p>
+</div>
 
-<a href="https://ncrescentini.github.io/CS499-Capstone/enhancement3/" target="_blank" class="card-link">
-  <div class="section-card" id="enh3">
-    <h2>Enhancement Three – Databases</h2>
-    <p>Adds SQLite-based save/load functionality by integrating a custom database into the original program. Demonstrates ability to design new features, build scalable architecture, and apply database principles. Click to view the <strong>README</strong> and enhanced codebase.</p>
-  </div>
-</a>
+<div class="section-card card-link" id="enh3" onclick="window.open('https://ncrescentini.github.io/CS499-Capstone/enhancement3/', '_blank')">
+  <h2>Enhancement Three – Databases</h2>
+  <p>Adds SQLite-based save/load functionality by integrating a custom database into the original program. Demonstrates ability to design new features, build scalable architecture, and apply database principles. Click to view the <strong>README</strong> and enhanced codebase.</p>
+</div>
 
 <div class="section-card" id="self-assessment">
   <h2>Professional Self-Assessment</h2>
