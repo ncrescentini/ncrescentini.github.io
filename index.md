@@ -2,6 +2,10 @@
 layout: home
 title: ""
 ---
+<style>
+  body {
+    background-color: #ECECEC;
+  }
 
   .banner-wrapper {
     background-color: #00205B;
@@ -96,52 +100,3 @@ title: ""
   <p>TODO</p>
   <!-- Self-assessment link coming soon -->
 </div>
-
-
-Welcome to my ePortfolio, which showcases my CS499 Capstone Project and other work from the SNHU Computer Science Program.
-
-## Capstone Overview
-
-TODO
-
-<!-- Link to capstone project repo coming soon -->
-
----
-
-## Code Review
-
-TODO
-
-<!-- Link to code review coming soon -->
-
----
-
-## Enhancement One – Software Design and Engineering
-
-TODO
-
-<!-- Link to enhancement one coming soon -->
-
----
-
-## Enhancement Two – Algorithms and Data Structures
-
-TODO
-
-<!-- Link to enhancement two coming soon -->
-
----
-
-## Enhancement Three – Databases
-
-TODO
-
-<!-- Link to enhancement three coming soon -->
-
----
-
-## Professional Self-Assessment
-
-TODO
-
-<!-- Link to self-assessment coming soon -->
