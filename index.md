@@ -51,24 +51,28 @@ title: ""
     z-index: 100;
     background-color: #00205B;
     padding: 0.75rem 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
     font-family: 'Segoe UI', sans-serif;
     border-bottom: 4px solid #FFC600;
+    text-align: center;
   }
-
+  
+  .sticky-nav .nav-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 0.4rem 0;
+  }
+  
   .sticky-nav a {
     color: #FFC600;
     text-decoration: none;
     font-weight: 600;
     font-size: 0.9rem;
-    transition: color 0.2s ease;
     white-space: nowrap;
     transition: color 0.2s ease;
   }
-
+  
   .sticky-nav a:hover {
     color: #ffffff;
   }
