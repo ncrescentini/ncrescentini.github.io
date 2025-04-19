@@ -120,7 +120,7 @@ title: ""
     color: #00244E;
   }
 
-    footer {
+  footer {
     text-align: center;
     font-size: 0.85rem;
     color: #666;
@@ -165,7 +165,6 @@ title: ""
     width: 100%;
     height: 100%;
   }
-  
 </style>
 
 <div class="banner-wrapper">
@@ -185,35 +184,22 @@ title: ""
 
 <div class="section-card" id="welcome">
   <h3>Welcome to my ePortfolio!</h3>
-  <p>
-    My capstone journey begins with the very first project I submitted at SNHU: a text-based adventure game written in Python. In the game, the player explores a castle in search of six items that will help them defeat a hidden dragon.
-  </p>
-  <p>
-    For this capstone, I chose to revisit and enhance that original codebase, both to honor where my programming journey began and to demonstrate how far I've come.
-  </p>
-  <p>
-    In this project, I've completed three major enhancements, each aligned with a different area of computer science:
-  </p>
+  <p>My capstone journey begins with the very first project I submitted at SNHU: a text-based adventure game written in Python. In the game, the player explores a castle in search of six items that will help them defeat a hidden dragon.</p>
+  <p>For this capstone, I chose to revisit and enhance that original codebase, both to honor where my programming journey began and to demonstrate how far I've come.</p>
+  <p>In this project, I've completed three major enhancements, each aligned with a different area of computer science:</p>
   <ul>
     <li><strong>Software Design & Engineering</strong> – Refactored the structure and introduced a modular start menu system</li>
     <li><strong>Algorithms & Data Structures</strong> – Replaced inefficient item logic with a dynamic, dictionary-based system</li>
     <li><strong>Databases</strong> – Implemented save/load functionality using an SQLite database</li>
   </ul>
-  <p>
-    Using this same project across all three enhancements is symbolic of my growth throughout the Computer Science program. It represents both my starting point and my final achievement—showcasing not just the technical skills I’ve gained, but also how my design thinking, coding practices, and confidence have evolved.
-  </p>
-  <p>
-    Each enhancement builds upon the last, transforming a simple beginner script into a scalable, maintainable, and professional-grade program.
-  </p>
+  <p>Using this same project across all three enhancements is symbolic of my growth throughout the Computer Science program. It represents both my starting point and my final achievement—showcasing not just the technical skills I’ve gained, but also how my design thinking, coding practices, and confidence have evolved.</p>
+  <p>Each enhancement builds upon the last, transforming a simple beginner script into a scalable, maintainable, and professional-grade program.</p>
 </div>
 
 <div class="section-card" id="code-review">
   <h2>Code Review</h2>
-  <p>
-    This video walks through the original artifacts used in my CS499 Capstone, identifying areas for improvement and outlining the planned enhancements. It includes a walkthrough along with code commentary and goals.
-  </p>
+  <p>This video walks through the original artifacts used in my CS499 Capstone, identifying areas for improvement and outlining the planned enhancements. It includes a walkthrough along with code commentary and goals.</p>
   <p><strong>View Original Artifacts:</strong> <a href="https://github.com/ncrescentini/CS499-Capstone/blob/main/InitialCodebase/TrogdorsRevenge.py" target="_blank">TrogdorsRevenge.py on GitHub</a></p>
-  
   <div class="video-container">
     <iframe src="https://player.vimeo.com/video/1076984032?h=1a3232b6d4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
       frameborder="0"
@@ -224,47 +210,32 @@ title: ""
   </div>
 </div>
 
-
 <div class="section-card" id="enh1">
   <h2>
     <a href="https://github.com/ncrescentini/CS499-Capstone/tree/main/enhancement1" target="_blank">
       Enhancement One – Software Design and Engineering
     </a>
   </h2>
-  <p>
-    Refactors the original IT-140 artifact by adding a menu system, improving modularity, and separating gameplay and logic functions.
-    Click to view the <strong>README</strong> and enhanced codebase.
-  </p>
+  <p>Refactors the original IT-140 artifact by adding a menu system, improving modularity, and separating gameplay and logic functions. Click to view the <strong>README</strong> and enhanced codebase.</p>
 </div>
 
 <div class="section-card" id="enh2">
-  <h2><a href="https://ncrescentini.github.io/CS499-Capstone/enhancement2/" target="_blank" style="text-decoration: none; color: #3b5fb2;">
-    Enhancement Two – Algorithms and Data Structures
-  </a></h2>
-  <p>
-    Refactors the item detection logic by replacing inefficient if/elif chains with a scalable dictionary-based algorithm. 
-    Enhances maintainability, efficiency, and lays groundwork for more complex game logic. 
-    Click to view the <strong>README</strong> and enhanced codebase.
-  </p>
+  <a href="https://ncrescentini.github.io/CS499-Capstone/enhancement2/" target="_blank" style="text-decoration: none;">
+    <h2>Enhancement Two – Algorithms and Data Structures</h2>
+  </a>
+  <p>Refactors the item detection logic by replacing inefficient if/elif chains with a scalable dictionary-based algorithm. Enhances maintainability, efficiency, and lays groundwork for more complex game logic. Click to view the <strong>README</strong> and enhanced codebase.</p>
 </div>
 
 <div class="section-card" id="enh3">
-  <h2>
-    <a href="https://ncrescentini.github.io/CS499-Capstone/enhancement3/" target="_blank" style="text-decoration: none; color: #3b5fb2;">
-      Enhancement Three – Databases
-    </a>
-  </h2>
-  <p>
-    Adds SQLite-based save/load functionality by integrating a custom database into the original program.
-    Demonstrates ability to design new features, build scalable architecture, and apply database principles.
-    Click to view the <strong>README</strong> and enhanced codebase.
-  </p>
+  <a href="https://ncrescentini.github.io/CS499-Capstone/enhancement3/" target="_blank" style="text-decoration: none;">
+    <h2>Enhancement Three – Databases</h2>
+  </a>
+  <p>Adds SQLite-based save/load functionality by integrating a custom database into the original program. Demonstrates ability to design new features, build scalable architecture, and apply database principles. Click to view the <strong>README</strong> and enhanced codebase.</p>
 </div>
 
 <div class="section-card" id="self-assessment">
   <h2>Professional Self-Assessment</h2>
   <p>TODO</p>
-  <!-- Self-assessment link coming soon -->
 </div>
 
 <footer>
@@ -290,7 +261,7 @@ title: ""
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('visible');
-          observer.unobserve(entry.target); // optional: only run once
+          observer.unobserve(entry.target);
         }
       });
     }, {
