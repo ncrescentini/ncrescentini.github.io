@@ -49,21 +49,24 @@ title: ""
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: #00205B;
+    background-color: #112B5C;
     padding: 0.75rem 1rem;
     font-family: 'Segoe UI', sans-serif;
     border-bottom: 4px solid #FFC600;
     text-align: center;
+    margin-top: 1rem;
+    border-top: 1px solid #FFC600;
   }
-  
+
   .sticky-nav .nav-row {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 1.5rem;
-    margin: 0.4rem 0;
+    margin: 0.3rem 0;
+    padding: 0.2rem 0;
   }
-  
+
   .sticky-nav a {
     color: #FFC600;
     text-decoration: none;
@@ -72,7 +75,7 @@ title: ""
     white-space: nowrap;
     transition: color 0.2s ease;
   }
-  
+
   .sticky-nav a:hover {
     color: #ffffff;
   }
@@ -90,6 +93,36 @@ title: ""
     border-left: 5px solid #FFC600;
     padding-left: 1rem;
     margin-top: 0;
+  }
+
+    footer {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #666;
+    padding: 2rem 0 1rem 0;
+    margin-top: 4rem;
+  }
+
+  .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #00205B;
+    color: #FFC600;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 0.8rem;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+    display: none;
+    z-index: 200;
+    transition: background-color 0.2s ease;
+  }
+
+  .back-to-top:hover {
+    background-color: #001B47;
   }
 </style>
 
@@ -153,3 +186,18 @@ title: ""
   <p>TODO</p>
   <!-- Self-assessment link coming soon -->
 </div>
+
+<footer>
+  Nick Crescentini • CS499 Capstone at SNHU • Built with GitHub Pages
+</footer>
+
+<button class="back-to-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
+  ↑ Back to Top
+</button>
+
+<script>
+  window.addEventListener('scroll', function () {
+    const btn = document.querySelector('.back-to-top');
+    btn.style.display = window.scrollY > 300 ? 'block' : 'none';
+  });
+</script>
