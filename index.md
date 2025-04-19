@@ -147,7 +147,7 @@ title: ""
   <a href="#self-assessment">Professional Self-Assessment</a>
 </div>
 
-<div class="section-card" id="welcome">>
+<div class="section-card" id="welcome">
   <h3>Welcome to my ePortfolio!</h3>
   <p>
     My capstone journey begins with the very first project I submitted at SNHU: a text-based adventure game written in Python. In the game, the player explores a castle in search of six items that will help them defeat a hidden dragon.
