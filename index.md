@@ -91,6 +91,7 @@ title: ""
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.05);
     max-width: 800px;
+    scroll-margin-top: 120px;
   }
 
   .section-card h2 {
