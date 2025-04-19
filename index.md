@@ -11,7 +11,13 @@ title: ""
   body {
     background-color: #ECECEC;
   }
-
+  
+  .site-title,
+  .site-footer,
+  .footer-col-wrapper,
+  .footer-heading {
+    display: none !important;
+  }
   .banner-wrapper {
     background-color: #00205B;
     color: #ffffff;
