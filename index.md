@@ -5,19 +5,20 @@ title: ""
 
 <style>
     body {
-    background-color: #F0F0F0;
+    background-color: #F5F5F5;
+    color: #111111;
   }
   
   .banner-wrapper {
-  background-color: #00205B;
-  color: #ffffff;
-  padding: 2rem;
-  text-align: center;
-  margin-bottom: 2rem;
-  font-family: 'Segoe UI', sans-serif;
-  border-top: 8px solid #FFC600;
-  border-bottom: 8px solid #FFC600;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    background-color: #00205B;
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+    border-top: 8px solid #FFC600;
+    border-bottom: 8px solid #FFC600;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
   }
 
   .banner-wrapper h1 {
