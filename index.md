@@ -2,7 +2,12 @@
 layout: home
 title: ""
 ---
+
 <style>
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background-color: #ECECEC;
   }
@@ -12,7 +17,7 @@ title: ""
     color: #ffffff;
     padding: 2rem;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
     font-family: 'Segoe UI', sans-serif;
     border-top: 8px solid #FFC600;
     border-bottom: 8px solid #FFC600;
@@ -40,12 +45,38 @@ title: ""
     color: #FFC600;
   }
 
+  .sticky-nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #00205B;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    font-family: 'Segoe UI', sans-serif;
+    border-bottom: 4px solid #FFC600;
+  }
+
+  .sticky-nav a {
+    color: #FFC600;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+  }
+
+  .sticky-nav a:hover {
+    color: #ffffff;
+  }
+
   .section-card {
     background: #ffffff;
     padding: 1.5rem;
-    margin: 2rem 0;
+    margin: 2rem auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    max-width: 800px;
   }
 
   .section-card h2 {
@@ -61,41 +92,50 @@ title: ""
   <h3>CS499 Capstone Project &amp; ePortfolio</h3>
 </div>
 
+<div class="sticky-nav">
+  <a href="#code-review">Code Review</a>
+  <a href="#overview">Overview</a>
+  <a href="#enh1">Enh. 1</a>
+  <a href="#enh2">Enh. 2</a>
+  <a href="#enh3">Enh. 3</a>
+  <a href="#self-assessment">Self-Assessment</a>
+</div>
+
 <div class="section-card">
   <p>Welcome to my ePortfolio, which showcases my CS499 Capstone Project and other work from the SNHU Computer Science Program.</p>
 </div>
 
-<div class="section-card">
-  <h2>Code Review</h2>
-  <p>TODO</p>
-  <!-- Link to code review coming soon -->
-</div>
-
-<div class="section-card">
+<div class="section-card" id="overview">
   <h2>Capstone Overview</h2>
   <p>TODO</p>
   <!-- Link to capstone repo coming soon -->
 </div>
 
-<div class="section-card">
+<div class="section-card" id="code-review">
+  <h2>Code Review</h2>
+  <p>TODO</p>
+  <!-- Link to code review coming soon -->
+</div>
+
+<div class="section-card" id="enh1">
   <h2>Enhancement One – Software Design and Engineering</h2>
   <p>TODO</p>
   <!-- Enhancement 1 link coming soon -->
 </div>
 
-<div class="section-card">
+<div class="section-card" id="enh2">
   <h2>Enhancement Two – Algorithms and Data Structures</h2>
   <p>TODO</p>
   <!-- Enhancement 2 link coming soon -->
 </div>
 
-<div class="section-card">
+<div class="section-card" id="enh3">
   <h2>Enhancement Three – Databases</h2>
   <p>TODO</p>
   <!-- Enhancement 3 link coming soon -->
 </div>
 
-<div class="section-card">
+<div class="section-card" id="self-assessment">
   <h2>Professional Self-Assessment</h2>
   <p>TODO</p>
   <!-- Self-assessment link coming soon -->
