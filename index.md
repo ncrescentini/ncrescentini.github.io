@@ -18,6 +18,7 @@ title: ""
   .footer-heading {
     display: none !important;
   }
+  
   .banner-wrapper {
     background-color: #00205B;
     color: #ffffff;
@@ -147,7 +148,17 @@ title: ""
 </div>
 
 <div class="section-card">
-  <p>Welcome to my ePortfolio, which showcases my CS499 Capstone Project and other work from the SNHU Computer Science Program.</p>
+  <p>
+    Welcome to my ePortfolio! The capstone begins with the original codebase from my first project submission at SNHU. The project is a text-based adventure game written in Python, where the player explores a castle to collect items that will help them defeat a hidden dragon. For this capstone, I chose to return to that original project and use it as the foundation for three major enhancements in the following areas:
+  </p>
+  <ul>
+    <li><strong>Software Design & Engineering</strong> – Refactored the structure and added a modular start menu system</li>
+    <li><strong>Algorithms & Data Structures</strong> – Replaced inefficient item logic with a dynamic dictionary-based system</li>
+    <li><strong>Databases</strong> – Added the ability to save/load game progress using an SQLite database</li>
+  </ul>
+  <p>
+    Using this same project for all three enhancements is symbolic of my journey through the Computer Science program. It represents both my first and final submissions, and highlights how my technical skills, design thinking, and confidence have grown. Each enhancement builds upon the last to transform a simple script into a more robust, scalable, and professional program.
+  </p>
 </div>
 
 <div class="section-card" id="overview">
