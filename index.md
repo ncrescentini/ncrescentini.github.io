@@ -11,14 +11,14 @@ title: ""
   body {
     background-color: #F4F7FB;
   }
-  
+
   .site-title,
   .site-footer,
   .footer-col-wrapper,
   .footer-heading {
     display: none !important;
   }
-  
+
   .banner-wrapper {
     background: linear-gradient(135deg, #00244E, #003F88);
     color: #ffffff;
@@ -71,7 +71,7 @@ title: ""
     justify-content: center;
     gap: 1.2rem;
   }
-  
+
   .sticky-nav a {
     color: #FDB913;
     text-decoration: underline;
@@ -82,7 +82,7 @@ title: ""
     cursor: pointer;
     transition: color 0.2s ease, text-decoration 0.2s ease;
   }
-  
+
   .sticky-nav a:hover {
     color: #ffffff;
     text-decoration: underline;
@@ -106,18 +106,30 @@ title: ""
     opacity: 1;
     transform: none;
   }
-  
-  .section-card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    transform: translateY(-4px);
-    border: 1px solid #FDB913;
-  }
 
   .section-card h2 {
     border-left: 5px solid #FDB913;
     padding-left: 1rem;
     margin-top: 0;
     color: #00244E;
+  }
+
+  .section-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transform: translateY(-4px);
+    border: 1px solid #FDB913;
+  }
+
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  .card-link .section-card:hover {
+    background-color: #FFF8E5;
+    border-color: #FDB913;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.12);
   }
 
   footer {
@@ -149,7 +161,7 @@ title: ""
   .back-to-top:hover {
     background-color: #001B47;
   }
-  
+
   .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -157,7 +169,7 @@ title: ""
     overflow: hidden;
     max-width: 100%;
   }
-  
+
   .video-container iframe {
     position: absolute;
     top: 0;
@@ -219,19 +231,19 @@ title: ""
   <p>Refactors the original IT-140 artifact by adding a menu system, improving modularity, and separating gameplay and logic functions. Click to view the <strong>README</strong> and enhanced codebase.</p>
 </div>
 
-<div class="section-card" id="enh2">
-  <a href="https://ncrescentini.github.io/CS499-Capstone/enhancement2/" target="_blank" style="text-decoration: none;">
+<a href="https://ncrescentini.github.io/CS499-Capstone/enhancement2/" target="_blank" class="card-link">
+  <div class="section-card" id="enh2">
     <h2>Enhancement Two – Algorithms and Data Structures</h2>
-  </a>
-  <p>Refactors the item detection logic by replacing inefficient if/elif chains with a scalable dictionary-based algorithm. Enhances maintainability, efficiency, and lays groundwork for more complex game logic. Click to view the <strong>README</strong> and enhanced codebase.</p>
-</div>
+    <p>Refactors the item detection logic by replacing inefficient if/elif chains with a scalable dictionary-based algorithm. Enhances maintainability, efficiency, and lays groundwork for more complex game logic. Click to view the <strong>README</strong> and enhanced codebase.</p>
+  </div>
+</a>
 
-<div class="section-card" id="enh3">
-  <a href="https://ncrescentini.github.io/CS499-Capstone/enhancement3/" target="_blank" style="text-decoration: none;">
+<a href="https://ncrescentini.github.io/CS499-Capstone/enhancement3/" target="_blank" class="card-link">
+  <div class="section-card" id="enh3">
     <h2>Enhancement Three – Databases</h2>
-  </a>
-  <p>Adds SQLite-based save/load functionality by integrating a custom database into the original program. Demonstrates ability to design new features, build scalable architecture, and apply database principles. Click to view the <strong>README</strong> and enhanced codebase.</p>
-</div>
+    <p>Adds SQLite-based save/load functionality by integrating a custom database into the original program. Demonstrates ability to design new features, build scalable architecture, and apply database principles. Click to view the <strong>README</strong> and enhanced codebase.</p>
+  </div>
+</a>
 
 <div class="section-card" id="self-assessment">
   <h2>Professional Self-Assessment</h2>
