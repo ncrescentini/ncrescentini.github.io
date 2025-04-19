@@ -4,6 +4,10 @@ title: ""
 ---
 
 <style>
+    body {
+    background-color: #F8F9FA;
+  }
+  
   .banner-wrapper {
     background-color: #00205B; /* SNHU Blue */
     color: #ffffff;
