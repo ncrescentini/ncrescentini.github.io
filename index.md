@@ -174,9 +174,14 @@ title: ""
 </div>
 
 <div class="section-card" id="enh2">
-  <h2>Enhancement Two – Algorithms and Data Structures</h2>
-  <p>TODO</p>
-  <!-- Enhancement 2 link coming soon -->
+  <h2><a href="https://ncrescentini.github.io/CS499-Capstone/enhancement2/" target="_blank" style="text-decoration: none; color: #3b5fb2;">
+    Enhancement Two – Algorithms and Data Structures
+  </a></h2>
+  <p>
+    Refactors the item detection logic by replacing inefficient if/elif chains with a scalable dictionary-based algorithm. 
+    Enhances maintainability, efficiency, and lays groundwork for more complex game logic. 
+    Click to view the <strong>README</strong> and enhanced codebase.
+  </p>
 </div>
 
 <div class="section-card" id="enh3">
