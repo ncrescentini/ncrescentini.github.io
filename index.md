@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Nick Crescentini"
+title: ""
 ---
 
 <style>
