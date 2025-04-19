@@ -100,12 +100,18 @@ title: ""
 </div>
 
 <div class="sticky-nav">
-  <a href="#overview">Overview</a>
-  <a href="#code-review">Code Review</a>
-  <a href="#enh1">Enhancement 1</a>
-  <a href="#enh2">Enhancement 2</a>
-  <a href="#enh3">Enhancement 3</a>
-  <a href="#self-assessment">Self-Assessment</a>
+  <div class="nav-row">
+    <a href="#overview">Capstone Overview</a>
+    <a href="#code-review">Code Review</a>
+  </div>
+  <div class="nav-row">
+    <a href="#enh1">Enhancement 1</a>
+    <a href="#enh2">Enhancement 2</a>
+    <a href="#enh3">Enhancement 3</a>
+  </div>
+  <div class="nav-row">
+    <a href="#self-assessment">Professional Self-Assessment</a>
+  </div>
 </div>
 
 <div class="section-card">
