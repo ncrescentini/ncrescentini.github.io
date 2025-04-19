@@ -98,14 +98,19 @@ title: ""
     max-width: 800px;
     scroll-margin-top: 120px;
     border: 1px solid #D8D8D8;
+    transition: all 0.3s ease;
   }
 
+  .section-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+  border: 1px solid #FFC600;
+}
   .section-card {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
   }
-  
   
   .section-card.visible {
     opacity: 1;
