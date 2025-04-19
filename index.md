@@ -1,8 +1,11 @@
 ---
 layout: home
-title: "Nick's ePortfolio"
+title: "Nick Crescentini"
 ---
 
-Welcome to my ePortfolio site!  
-Explore my work below:
+# Nick Crescentini - CS499 ePortfolio
+
+Welcome to my ePortfolio, which showcases muy CS499 Capstone Project and other work from the SNHU Computer Science Program
+
+---
 
