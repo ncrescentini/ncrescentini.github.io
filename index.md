@@ -215,7 +215,8 @@ title: ""
   <p>
     This video walks through the original artifact used in my CS499 Capstone, identifying areas for improvement and outlining the planned enhancements. It includes a walkthrough along with code commentary and goals.
   </p>
-
+  <p><strong>View Original Codebase:</strong> <a href="https://github.com/ncrescentini/CS499-Capstone/tree/main/InitialCodebase" target="_blank">InitialCodebase Folder on GitHub</a></p>
+  
   <div class="video-container">
     <iframe src="https://player.vimeo.com/video/1076984032?h=1a3232b6d4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
       frameborder="0"
