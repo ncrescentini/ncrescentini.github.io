@@ -50,10 +50,11 @@ title: ""
     top: 0;
     z-index: 100;
     background-color: #00205B;
-    padding: 0.5rem 1rem;
+    padding: 0.75rem 1rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 1rem;
     font-family: 'Segoe UI', sans-serif;
     border-bottom: 4px solid #FFC600;
   }
@@ -62,9 +63,10 @@ title: ""
     color: #FFC600;
     text-decoration: none;
     font-weight: 600;
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     transition: color 0.2s ease;
     white-space: nowrap;
+    transition: color 0.2s ease;
   }
 
   .sticky-nav a:hover {
