@@ -210,7 +210,6 @@ title: ""
 
 <div class="sticky-nav">
   <a href="#top">Top</a>
-  <a href="#welcome">Welcome</a>
   <a href="#code-review">Code Review</a>
   <a href="#enh1">Enhancement 1</a>
   <a href="#enh2">Enhancement 2</a>
