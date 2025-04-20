@@ -100,6 +100,11 @@ title: ""
     opacity: 0;
     transform: translateY(4px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out, background-color 0.3s ease;
+    cursor: default;
+  }
+
+  .enhancement-card {
+    cursor: pointer;
   }
 
   .section-card.visible {
