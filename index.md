@@ -12,6 +12,12 @@ title: ""
     background-color: #F4F7FB;
   }
 
+  header.site-header,
+  h1.site-title,
+  nav.site-nav {
+    display: none !important;
+  }
+  
   .site-title,
   .site-footer,
   .footer-col-wrapper,
