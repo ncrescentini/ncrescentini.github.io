@@ -210,11 +210,11 @@ title: "Nick Crescentini | ePortfolio"
 
 <div class="sticky-nav">
   <a href="#top">Top</a>
+  <a href="self-assessment.md" target="_blank">Professional Self-Assessment</a>
   <a href="#code-review">Code Review</a>
   <a href="#enh1">Enhancement 1</a>
   <a href="#enh2">Enhancement 2</a>
   <a href="#enh3">Enhancement 3</a>
-  <a href="self-assessment.md" target="_blank">Professional Self-Assessment</a>
 </div>
 
 <div class="section-card" id="welcome">
