@@ -225,12 +225,12 @@ title: ""
   <p>Refactors the original IT-140 artifact by adding a menu system, improving modularity, and separating gameplay and logic functions. Click to view the <strong>README</strong> and enhanced codebase.</p>
 </div>
 
-<div class="section-card clickable-card" id="enh2" onclick="window.open('https://ncrescentini.github.io/CS499-Capstone/enhancement2/', '_blank')">
+<div class="section-card clickable-card" id="enh2" onclick="window.open('https://github.com/ncrescentini/CS499-Capstone/tree/main/enhancement2', '_blank')">
   <h2>Enhancement Two – Algorithms and Data Structures</h2>
   <p>Refactors the item detection logic by replacing inefficient if/elif chains with a scalable dictionary-based algorithm. Enhances maintainability, efficiency, and lays groundwork for more complex game logic. Click to view the <strong>README</strong> and enhanced codebase.</p>
 </div>
 
-<div class="section-card clickable-card" id="enh3" onclick="window.open('https://ncrescentini.github.io/CS499-Capstone/enhancement3/', '_blank')">
+<div class="section-card clickable-card" id="enh3" onclick="window.open('https://github.com/ncrescentini/CS499-Capstone/tree/main/enhancement3', '_blank')">
   <h2>Enhancement Three – Databases</h2>
   <p>Adds SQLite-based save/load functionality by integrating a custom database into the original program. Demonstrates ability to design new features, build scalable architecture, and apply database principles. Click to view the <strong>README</strong> and enhanced codebase.</p>
 </div>
