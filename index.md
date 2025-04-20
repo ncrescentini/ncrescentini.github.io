@@ -99,7 +99,7 @@ title: ""
     border: 1px solid #D8D8D8;
     opacity: 0;
     transform: translateY(4px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out, background-color 0.3s ease;
   }
 
   .section-card.visible {
@@ -107,25 +107,27 @@ title: ""
     transform: none;
   }
 
-  .clickable-card {
-    cursor: pointer;
-  }
-
-  .clickable-card:hover {
-    background-color: #F9FAFE;
-  }
-
-  .section-card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    transform: translateY(-4px);
-    border: 1px solid #FDB913;
-  }
-
   .section-card h2 {
     border-left: 5px solid #FDB913;
     padding-left: 1rem;
     margin-top: 0;
     color: #00244E;
+  }
+
+  .clickable-card {
+    cursor: pointer;
+  }
+
+  .clickable-card:hover {
+    background-color: #FAFAFF;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transform: translateY(-4px);
+    border: 1px solid #FDB913;
+  }
+
+  .clickable-card:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
   footer {
@@ -178,7 +180,7 @@ title: ""
 <div class="banner-wrapper">
   <h1>Nick Crescentini</h1>
   <h2>SNHU</h2>
-  <h3>CS499 Capstone Project &amp; ePortfolio</h3>
+  <h3>CS499 Capstone Project & ePortfolio</h3>
 </div>
 
 <div class="sticky-nav">
@@ -218,26 +220,20 @@ title: ""
   </div>
 </div>
 
-<a href="https://github.com/ncrescentini/CS499-Capstone/tree/main/enhancement1" target="_blank" style="text-decoration: none;">
-  <div class="section-card clickable-card" id="enh1">
-    <h2>Enhancement One – Software Design and Engineering</h2>
-    <p>Refactors the original IT-140 artifact by adding a menu system, improving modularity, and separating gameplay and logic functions. Click to view the <strong>README</strong> and enhanced codebase.</p>
-  </div>
-</a>
+<div class="section-card clickable-card" id="enh1" onclick="window.open('https://github.com/ncrescentini/CS499-Capstone/tree/main/enhancement1', '_blank')">
+  <h2>Enhancement One – Software Design and Engineering</h2>
+  <p>Refactors the original IT-140 artifact by adding a menu system, improving modularity, and separating gameplay and logic functions. Click to view the <strong>README</strong> and enhanced codebase.</p>
+</div>
 
-<a href="https://ncrescentini.github.io/CS499-Capstone/enhancement2/" target="_blank" style="text-decoration: none;">
-  <div class="section-card clickable-card" id="enh2">
-    <h2>Enhancement Two – Algorithms and Data Structures</h2>
-    <p>Refactors the item detection logic by replacing inefficient if/elif chains with a scalable dictionary-based algorithm. Enhances maintainability, efficiency, and lays groundwork for more complex game logic. Click to view the <strong>README</strong> and enhanced codebase.</p>
-  </div>
-</a>
+<div class="section-card clickable-card" id="enh2" onclick="window.open('https://ncrescentini.github.io/CS499-Capstone/enhancement2/', '_blank')">
+  <h2>Enhancement Two – Algorithms and Data Structures</h2>
+  <p>Refactors the item detection logic by replacing inefficient if/elif chains with a scalable dictionary-based algorithm. Enhances maintainability, efficiency, and lays groundwork for more complex game logic. Click to view the <strong>README</strong> and enhanced codebase.</p>
+</div>
 
-<a href="https://ncrescentini.github.io/CS499-Capstone/enhancement3/" target="_blank" style="text-decoration: none;">
-  <div class="section-card clickable-card" id="enh3">
-    <h2>Enhancement Three – Databases</h2>
-    <p>Adds SQLite-based save/load functionality by integrating a custom database into the original program. Demonstrates ability to design new features, build scalable architecture, and apply database principles. Click to view the <strong>README</strong> and enhanced codebase.</p>
-  </div>
-</a>
+<div class="section-card clickable-card" id="enh3" onclick="window.open('https://ncrescentini.github.io/CS499-Capstone/enhancement3/', '_blank')">
+  <h2>Enhancement Three – Databases</h2>
+  <p>Adds SQLite-based save/load functionality by integrating a custom database into the original program. Demonstrates ability to design new features, build scalable architecture, and apply database principles. Click to view the <strong>README</strong> and enhanced codebase.</p>
+</div>
 
 <div class="section-card" id="self-assessment">
   <h2>Professional Self-Assessment</h2>
@@ -262,6 +258,7 @@ title: ""
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     const cards = document.querySelectorAll('.section-card');
+
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -269,8 +266,12 @@ title: ""
           observer.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.1 });
+    }, {
+      threshold: 0.1
+    });
 
-    cards.forEach(card => observer.observe(card));
+    cards.forEach(card => {
+      observer.observe(card);
+    });
   });
 </script>
