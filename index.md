@@ -8,11 +8,8 @@ title: ""
     scroll-behavior: smooth;
   }
 
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
-
   body {
     background-color: #F4F7FB;
-    font-family: 'Inter', 'Segoe UI', sans-serif;
   }
 
   header.site-header,
@@ -20,7 +17,7 @@ title: ""
   nav.site-nav {
     display: none !important;
   }
-
+  
   .site-title,
   .site-footer,
   .footer-col-wrapper,
@@ -29,39 +26,39 @@ title: ""
   }
 
   .banner-wrapper {
-    background: linear-gradient(135deg, #1F2A44, #273559);
+    background: linear-gradient(135deg, #00244E, #003F88);
     color: #ffffff;
     padding: 2rem;
     text-align: center;
     margin-bottom: 0;
-    font-family: 'Inter', sans-serif;
-    border-top: 8px solid #D7A600;
-    border-bottom: 8px solid #D7A600;
+    font-family: 'Segoe UI', sans-serif;
+    border-top: 8px solid #FDB913;
+    border-bottom: 8px solid #FDB913;
     box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.2);
   }
 
   .banner-wrapper h1 {
     margin: 0;
-    font-size: 2.6rem;
+    font-size: 2.5rem;
     font-weight: 800;
-    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.35);
   }
 
   .banner-wrapper h2 {
     margin: 0.3rem 0;
     font-size: 1.5rem;
     font-weight: 600;
-    color: #FFD95A;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    color: #FDB913;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
   }
 
   .banner-wrapper h3 {
     margin: 0.2rem 0;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-style: italic;
     font-weight: 400;
-    color: #FFD95A;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    color: #FDB913;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
   }
 
   .sticky-nav {
@@ -70,11 +67,11 @@ title: ""
     z-index: 100;
     background-color: #00244E;
     padding: 0.5rem 1rem 0.4rem 1rem;
-    font-family: 'Inter', sans-serif;
-    border-bottom: 4px solid #D7A600;
+    font-family: 'Segoe UI', sans-serif;
+    border-bottom: 4px solid #FDB913;
     text-align: center;
     margin-top: 1rem;
-    border-top: 1px solid #D7A600;
+    border-top: 1px solid #FDB913;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -82,7 +79,7 @@ title: ""
   }
 
   .sticky-nav a {
-    color: #D7A600;
+    color: #FDB913;
     text-decoration: underline;
     text-underline-offset: 2px;
     font-weight: 600;
@@ -122,7 +119,7 @@ title: ""
   }
 
   .section-card h2 {
-    border-left: 5px solid #D7A600;
+    border-left: 5px solid #FDB913;
     padding-left: 1rem;
     margin-top: 0;
     color: #00244E;
@@ -136,7 +133,7 @@ title: ""
     background-color: #FAFAFF;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     transform: translateY(-4px);
-    border: 1px solid #D7A600;
+    border: 1px solid #FDB913;
   }
 
   .clickable-card:active {
@@ -157,7 +154,7 @@ title: ""
     bottom: 20px;
     right: 20px;
     background-color: #00244E;
-    color: #D7A600;
+    color: #FDB913;
     padding: 10px 14px;
     border: none;
     border-radius: 5px;
@@ -180,14 +177,14 @@ title: ""
     color: #00244E;
     background-color: #F4F7FB;
     padding: 2rem 1rem;
-    border-top: 2px solid #D7A600;
-    font-family: 'Inter', sans-serif;
+    border-top: 2px solid #FDB913;
+    font-family: 'Segoe UI', sans-serif;
   }
-
+  
   .custom-footer strong {
     color: #003F88;
   }
-
+  
   .video-container {
     position: relative;
     padding-bottom: 56.25%;
