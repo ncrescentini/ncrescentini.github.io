@@ -1,3 +1,8 @@
+---
+layout: home
+title: ""
+---
+
 <style>
   html {
     scroll-behavior: smooth;
