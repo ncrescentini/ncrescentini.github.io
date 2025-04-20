@@ -197,7 +197,7 @@ title: ""
   Welcome to my ePortfolio!
   </h2>
   <p>My capstone journey begins with the very first project I submitted at SNHU: a text-based adventure game written in Python. In the game, the player explores a castle in search of six items that will help them defeat a hidden dragon.</p>
-  <p>For this capstone, I chose to revisit and enhance that original codebase, both to honor where my programming journey began and to demonstrate how far I've come. In this project, I've completed three major enhancements, each aligned with a different area of computer science:</p>
+  <p>For this capstone, I chose to revisit and enhance that original codebase, both to honor where my programming journey began and to demonstrate how far I've come. In this project, I've completed three major enhancements, each targeting a core area of computer science:</p>
 <ul>
   <li><strong>Enhancement One – Software Design & Engineering</strong>: Improved modularity and user experience by introducing a start menu system and restructuring gameplay logic into dedicated functions.</li>
   <li><strong>Enhancement Two – Algorithms & Data Structures</strong>: Replaced inefficient <code>if</code>/<code>elif</code> chains with a dynamic dictionary-based system, improving maintainability and scalability.</li>
