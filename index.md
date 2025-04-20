@@ -1,8 +1,3 @@
----
-layout: null
-title: ""
----
-
 <style>
   html {
     scroll-behavior: smooth;
