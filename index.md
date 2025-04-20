@@ -202,13 +202,14 @@ title: ""
   }
 </style>
 
-<div class="banner-wrapper">
+<div class="banner-wrapper" id="top">
   <h1>Nick Crescentini</h1>
   <h2>SNHU</h2>
   <h3>CS499 Capstone Project & ePortfolio</h3>
 </div>
 
 <div class="sticky-nav">
+  <a href="#top">Top</a>
   <a href="#welcome">Welcome</a>
   <a href="#code-review">Code Review</a>
   <a href="#enh1">Enhancement 1</a>
@@ -273,7 +274,6 @@ title: ""
 
 <footer>
   Nick Crescentini • CS499 Capstone at SNHU<br>
-  <span style="font-size: 0.75rem; color: #aaa;">Custom Styling</span>
 </footer>
 
 <button class="back-to-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
