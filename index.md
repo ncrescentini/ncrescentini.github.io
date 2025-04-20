@@ -1,6 +1,6 @@
 ---
 layout: null
-title: ""
+title: "Nick Crescentini | ePortfolio"
 ---
 
 <style>
@@ -214,7 +214,7 @@ title: ""
   <a href="#enh1">Enhancement 1</a>
   <a href="#enh2">Enhancement 2</a>
   <a href="#enh3">Enhancement 3</a>
-  <a href="#self-assessment">Professional Self-Assessment</a>
+  <a href="self-assessment.md" target="_blank">Professional Self-Assessment</a>
 </div>
 
 <div class="section-card" id="welcome">
@@ -229,6 +229,15 @@ title: ""
   <li><strong>Enhancement Three – Databases</strong>: Integrated a custom SQLite database to add save/load functionality, introducing persistent storage and opening the door for future features.</li>
 </ul>
   <p>Using this same project across all three enhancements is symbolic of my growth throughout the Computer Science program. It represents both my starting point and my final achievement—showcasing not just the technical skills I’ve gained, but also how my design thinking, coding practices, and confidence have evolved.</p>
+</div>
+
+<div class="section-card clickable-card" id="self-assessment"
+     onclick="window.open('self-assessment.md', '_blank')"
+     title="Click to view the full Professional Self-Assessment">
+  <h2>Professional Self-Assessment</h2>
+  <p>
+    View a detailed reflection on how this capstone and the entire Computer Science program helped shape my technical skills, collaborative mindset, and readiness for the field. Click to read the <strong>Professional Self-Assessment.</strong>
+  </p>
 </div>
 
 <div class="section-card" id="code-review">
@@ -264,11 +273,6 @@ title: ""
       title="Click to view Enhancement Three on GitHub">
   <h2>Enhancement Three – Databases</h2>
   <p>Adds SQLite-based save/load functionality by integrating a custom database into the original program. Demonstrates ability to design new features, build scalable architecture, and apply database principles. Click to view the <strong>Enhancement Three Codebase and Narrative.</strong></p>
-</div>
-
-<div class="section-card" id="self-assessment">
-  <h2>Professional Self-Assessment</h2>
-  <p>TODO</p>
 </div>
 
 <footer>
