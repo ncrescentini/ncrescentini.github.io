@@ -210,7 +210,7 @@ title: "Nick Crescentini | ePortfolio"
 
 <div class="sticky-nav">
   <a href="#top">Top</a>
-  <a href="self-assessment.md" target="_blank">Professional Self-Assessment</a>
+  <a href="self-assessment.html" target="_blank">Professional Self-Assessment</a>
   <a href="#code-review">Code Review</a>
   <a href="#enh1">Enhancement 1</a>
   <a href="#enh2">Enhancement 2</a>
@@ -232,7 +232,7 @@ title: "Nick Crescentini | ePortfolio"
 </div>
 
 <div class="section-card clickable-card" id="self-assessment"
-     onclick="window.open('self-assessment.md', '_blank')"
+     onclick="window.open('self-assessment.html', '_blank')"
      title="Click to view the full Professional Self-Assessment">
   <h2>Professional Self-Assessment</h2>
   <p>
