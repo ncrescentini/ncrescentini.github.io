@@ -193,7 +193,9 @@ title: ""
 </div>
 
 <div class="section-card" id="welcome">
-  <h3>Welcome to my ePortfolio!</h3>
+  <h2 style="border-left: 5px solid #FDB913; padding-left: 1rem; color: #00244E; margin-top: 0;">
+  Welcome to my ePortfolio!
+  </h2>
   <p>My capstone journey begins with the very first project I submitted at SNHU: a text-based adventure game written in Python. In the game, the player explores a castle in search of six items that will help them defeat a hidden dragon.</p>
   <p>For this capstone, I chose to revisit and enhance that original codebase, both to honor where my programming journey began and to demonstrate how far I've come.</p>
   <p>In this project, I've completed three major enhancements, each aligned with a different area of computer science:</p>
