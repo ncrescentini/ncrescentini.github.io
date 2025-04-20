@@ -144,7 +144,7 @@ title: ""
   footer {
     text-align: center;
     font-size: 0.85rem;
-    color: #666;
+    color: #668;
     padding: 2rem 0 1rem 0;
     margin-top: 4rem;
   }
@@ -171,6 +171,20 @@ title: ""
     background-color: #001B47;
   }
 
+  .custom-footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #00244E;
+    background-color: #F4F7FB;
+    padding: 2rem 1rem;
+    border-top: 2px solid #FDB913;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .custom-footer strong {
+    color: #003F88;
+  }
+  
   .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -251,8 +265,8 @@ title: ""
   <p>TODO</p>
 </div>
 
-<footer>
-  Nick Crescentini • CS499 Capstone at SNHU • Built with GitHub Pages
+<footer class="custom-footer">
+  Designed and developed by <strong>Nick Crescentini</strong> • SNHU CS499 Capstone
 </footer>
 
 <button class="back-to-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
